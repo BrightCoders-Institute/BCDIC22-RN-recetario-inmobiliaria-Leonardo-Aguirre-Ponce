@@ -1,13 +1,12 @@
-// Node modules
-import React, { Component } from 'react';
-import Navigation from './src/navigation/Index';
+import React from 'react'
+import {Card} from './components/Card'
 
-export default class App extends Component {
-	constructor() {
-		super(props);
-	}
 
-	render() {
-		return <Navigation />;
-	}
+
+export const App = () => {
+  return (
+    <Card />
+  )
 }
+
+export default App
