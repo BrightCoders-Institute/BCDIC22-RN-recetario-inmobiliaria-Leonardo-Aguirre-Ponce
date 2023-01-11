@@ -1,15 +1,11 @@
 import React, { Component } from 'react';
-import { View, ScrollView, StyleSheet, Image, Dimensions } from 'react-native';
-
-//const inmobiliaria 
+import { View, ScrollView, StyleSheet, Image, Dimensions, Text } from 'react-native';
+import dbase from '../databases/info.json';
+//impor
 
 const { width } = Dimensions.get('window');
 
 export default class App extends Component {
-  
-  componentDidMount() {
-		setTimeout(() => {this.scrollView.scrollTo({x: -30}) }, 1) // scroll view position fix
-	}
 	
   render() {
     return (
@@ -26,7 +22,22 @@ export default class App extends Component {
           bottom: 0,
           right: 30,
         }}>
-        <View style={styles.view} />
+        <View style={{
+          marginTop: 100,
+          justifyContent: 'space-between',
+          borderWidth: 2,
+          backgroundColor: '#F5FDFF',
+          width: '70%',
+          height: '25%',
+          borderRadius: 10,
+          paddingHorizontal : 30
+          }}>
+            <Text>
+              hola
+            </Text>
+          
+        </View>
+
         <View style={styles.view2} />
         <View style={styles.view} />
         <View style={styles.view2} />
@@ -37,15 +48,9 @@ export default class App extends Component {
 }
 
 const styles = StyleSheet.create({
-  container: {},
+  container: { },
   view: {
-    marginTop: 100,
-    backgroundColor: 'blue',
-    width: width - 80,
-    margin: 10,
-    height: 200,
-    borderRadius: 10,
-    //paddingHorizontal : 30
+    
   },
   view2: {
     marginTop: 100,

@@ -1,12 +1,13 @@
 import React from 'react'
-import {Card} from './components/Card'
+import { View } from 'react-native'
+import Card from './components/Card'
 
-
-
-export const App = () => {
-  return (
-    <Card />
-  )
-}
-
-export default App
+const App = () => {
+    return (
+    <View>
+        <Card />
+    </View>
+    )
+  }
+  
+  export default Card
