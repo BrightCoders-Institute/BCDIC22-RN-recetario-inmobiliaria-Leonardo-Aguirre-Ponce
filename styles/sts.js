@@ -74,7 +74,7 @@ export default StyleSheet.create({
   },
 
   iconSpace: {
-    marginLeft: 5,
+    marginLeft: 5
   },
   row: {
     flexDirection: 'row',
