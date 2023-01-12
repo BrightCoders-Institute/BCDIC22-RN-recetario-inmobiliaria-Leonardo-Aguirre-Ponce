@@ -60,7 +60,7 @@ npm test
 
 | Analizador de código           | Estado                                                                                                                                                                                                                                                                                                                                                     |
 | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Codacy                         |  |
+| Codacy                         | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/0eee8b6beaf740939877af16d1d90a04)](https://www.codacy.com/gh/BrightCoders-Institute/BCDIC22-RN-recetario-inmobiliaria-Leonardo-Aguirre-Ponce/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=BrightCoders-Institute/BCDIC22-RN-recetario-inmobiliaria-Leonardo-Aguirre-Ponce&amp;utm_campaign=Badge_Grade) |
 
 
 ## Créditos

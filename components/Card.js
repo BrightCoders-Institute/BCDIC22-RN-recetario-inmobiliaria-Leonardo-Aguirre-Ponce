@@ -4,7 +4,7 @@ import styles from '../styles/sts'
 import { Ionicons, EvilIcons, MaterialCommunityIcons, AntDesign } from '@expo/vector-icons'
 import PropTypes from 'prop-types'
 
-export default function Card(props) {
+export default function Card (props) {
   const [clicked, setClicked] = useState(false)
   return (
     <View style={styles.card}>
@@ -13,7 +13,7 @@ export default function Card(props) {
           justifyContent: 'center',
           position: 'relative',
           alignItems: 'center',
-          width: '28%',
+          width: '28%'
         }}
       >
         <Image style={styles.img} source={{ uri: props.item.pic }} />
@@ -23,7 +23,7 @@ export default function Card(props) {
             style={{
               color: '#7A6229',
               marginLeft: 5,
-              fontWeight: '700',
+              fontWeight: '700'
             }}
           >
             4.7
@@ -74,5 +74,5 @@ export default function Card(props) {
   )
 }
 Card.propTypes = {
-  item: PropTypes.object,
+  item: PropTypes.object
 }

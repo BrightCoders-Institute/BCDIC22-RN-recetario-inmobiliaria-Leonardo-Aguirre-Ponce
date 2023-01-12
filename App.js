@@ -4,7 +4,7 @@ import styles from './styles/sts'
 import { View } from 'react-native'
 import ICard from './components'
 
-export default function App() {
+export default function App () {
   return (
     <View style={styles.container}>
       <StatusBar style="auto" />

@@ -6,11 +6,11 @@ export default StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'center'
   },
   scroll: {
     flex: 1,
-    width: '90%',
+    width: '90%'
   },
   card: {
     flex: 1,
@@ -21,27 +21,26 @@ export default StyleSheet.create({
     borderRadius: 10,
     justifyContent: 'space-between',
     alignItems: 'center',
-
-    position: 'relative',
+    position: 'relative'
   },
   contentCard: {
-    width: '65%',
+    width: '65%'
   },
   contentCardTitle: {},
   img: {
     width: '100%',
     height: '100%',
-    borderRadius: 10,
+    borderRadius: 10
   },
   location: {
     display: 'flex',
-    flexDirection: 'row',
+    flexDirection: 'row'
   },
   info: {
     display: 'flex',
     flex: 1,
     flexDirection: 'row',
-    justifyContent: 'space-between',
+    justifyContent: 'space-between'
   },
   starContainer: {
     backgroundColor: '#FBEDB7',
@@ -53,7 +52,7 @@ export default StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     bottom: 6,
-    position: 'absolute',
+    position: 'absolute'
   },
   buttonHeart: {
     position: 'absolute',
@@ -65,13 +64,13 @@ export default StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     bottom: 5,
-    right: 20,
+    right: 20
   },
   bold: {
-    fontWeight: '600',
+    fontWeight: '600'
   },
   fontxlSS: {
-    fontSize: 20,
+    fontSize: 20
   },
 
   iconSpace: {
@@ -79,6 +78,6 @@ export default StyleSheet.create({
   },
   row: {
     flexDirection: 'row',
-    alignItems: 'center',
-  },
+    alignItems: 'center'
+  }
 })
