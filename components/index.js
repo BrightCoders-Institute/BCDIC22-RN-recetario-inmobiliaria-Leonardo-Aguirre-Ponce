@@ -1,15 +1,16 @@
-import { Text, View } from 'react-native'
-import React, { Component } from 'react'
-//import bd from 'databases/info.json'
-
-export class index extends Component {
-  render() {
-    return (
+import { View, ScrollView } from 'react-native'
+import React from 'react'
+import bd from '../databases/info.json'
+import styles from '../styles/sts'
+import Card from './Card'
+export default function ICard() {
+  return (
+    <ScrollView style={styles.scroll}>
       <View>
-        <Text>index</Text>
+        {bd.map((item, index) => {
+          return <Card item={item} key={index} />
+        })}
       </View>
-    )
-  }
+    </ScrollView>
+  )
 }
-
-export default index

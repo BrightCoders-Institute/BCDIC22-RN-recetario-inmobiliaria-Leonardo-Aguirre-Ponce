@@ -1,92 +1,67 @@
 [
-	{
-		"address": "3517 W. Gray St. Utica",
-		"bathrooms": 2,
-		"cost": 440,
-		"favorite": null,
-		"name": "The Willows",
-		"qualification": 4.7,
-		"rooms": 3,
-		"surface": {
-			"lenght": 10,
-			"width": 23,
-			"heigth": null,
-			"unit": "ft"
-		}
-	},
-	{
-		"address": "3517 W. Gray St. Utica",
-		"bathrooms": 2,
-		"cost": 440,
-		"favorite": null,
-		"name": "Orchard House",
-		"qualification": 4.7,
-		"rooms": 3,
-		"surface": {
-			"lenght": 10,
-			"width": 23,
-			"heigth": null,
-			"unit": "ft"
-		}
-	},
-	{
-		"address": "3517 W. Gray St. Utica",
-		"bathrooms": 2,
-		"cost": 440,
-		"favorite": null,
-		"name": "Orchard House",
-		"qualification": 4.7,
-		"rooms": 3,
-		"surface": {
-			"lenght": 10,
-			"width": 23,
-			"heigth": null,
-			"unit": "ft"
-		}
-	},
-	{
-		"address": "3517 W. Gray St. Utica",
-		"bathrooms": 2,
-		"cost": 440,
-		"favorite": null,
-		"name": "The Willows",
-		"qualification": 4.7,
-		"rooms": 3,
-		"surface": {
-			"lenght": 10,
-			"width": 23,
-			"heigth": null,
-			"unit": "ft"
-		}
-	},
-	{
-		"address": "3517 W. Gray St. Utica",
-		"bathrooms": 2,
-		"cost": 440,
-		"favorite": null,
-		"name": "Corner House",
-		"qualification": 4.7,
-		"rooms": 3,
-		"surface": {
-			"lenght": 10,
-			"width": 23,
-			"heigth": null,
-			"unit": "ft"
-		}
-	},
-	{
-		"address": "3517 W. Gray St. Utica",
-		"bathrooms": 2,
-		"cost": 440,
-		"favorite": null,
-		"name": "Orchard House",
-		"qualification": 4.7,
-		"rooms": 3,
-		"surface": {
-			"lenght": 10,
-			"width": 23,
-			"heigth": null,
-			"unit": "ft"
-		}
-	}
+    {
+        "name": "The Willows",
+        "pic": "https://images.homify.com/c_fill,f_auto,q_0,w_740/v1519089963/p/photo/image/2442944/DSC_8304-Edit.jpg",
+        "loc": "3517 W.Gray ST. Utica",
+        "featrs": {
+            "rooms": "3",
+            "baths": "2",
+            "ft": "230"
+        },
+        "rent": "$440/m"
+    },
+    {
+        "name": "Orchard House",
+        "pic": "https://images.homify.com/c_fill,f_auto,q_0,w_740/v1519089963/p/photo/image/2442944/DSC_8304-Edit.jpg",
+        "loc": "3517 W.Gray ST. Utica",
+        "featrs": {
+            "rooms": "3",
+            "baths": "2",
+            "ft": "230"
+        },
+        "rent": "$440/m"
+    },
+    {
+        "name": "Orchard House",
+        "pic": "https://images.homify.com/c_fill,f_auto,q_0,w_740/v1519089963/p/photo/image/2442944/DSC_8304-Edit.jpg",
+        "loc": "3517 W.Gray ST. Utica",
+        "featrs": {
+            "rooms": "3",
+            "baths": "2",
+            "ft": "230"
+        },
+        "rent": "$440/m"
+    },
+    {
+        "name": "The Willows",
+        "pic": "https://images.homify.com/c_fill,f_auto,q_0,w_740/v1519089963/p/photo/image/2442944/DSC_8304-Edit.jpg",
+        "featrs": {
+            "rooms": "3",
+            "baths": "2",
+            "ft": "230"
+        },
+        "rent": "$440/m"
+    },
+    {
+        "name": "Corner",
+        "pic": "https://images.homify.com/c_fill,f_auto,q_0,w_740/v1519089963/p/photo/image/2442944/DSC_8304-Edit.jpg",
+        "loc": "3517 W.Gray ST. Utica",
+        "featrs": {
+            "rooms": "3",
+            "baths": "2",
+            "ft": "230"
+        },
+        "rent": "$440/m"
+    },
+    {
+        "name": "The Willows",
+        "pic": "https://images.homify.com/c_fill,f_auto,q_0,w_740/v1519089963/p/photo/image/2442944/DSC_8304-Edit.jpg",
+        "loc": "3517 W.Gray ST. Utica",
+        "featrs": {
+            "rooms": "3",
+            "baths": "2",
+            "ft": "230"
+        },
+        "rent": "$440/m"
+    }
 ]
