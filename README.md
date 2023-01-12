@@ -2,17 +2,67 @@
 
 # App Inmobiliaria
 
-- [Ver instrucciones](./instructions.md)
+## Tabla de contenidos
 
-This README would normally document whatever steps are necessary to get the application up and running.
+- [Descripción](#Descripción)
+- [Uso](#Uso)
+  - [Clonar repositorio](#Clonar-repositorio)
+  - [Instalar dependencias](#Instalar-dependencias)
+  - [Ejecutar](#Ejecutar)
+    - [Cualquier entorno](#Cualquier-entorno)
+    - [Expo Go](#Expo)
+  - [Pruebas](#Pruebas)
+- [Insignias](#Insignias)
+- [Créditos](#Créditos)
 
-Things you may want to cover:
+## Descripción
+Aplicación móvil que permita mostrar información de diferentes propiedades inmobiliarias.
 
-- Title or Project Name
-- Table of contents
-- Description. A brief description of what the project is about
-- How to Install and Run the Project.
-- How to Use the Project.
-- Credits
-- Badges
-  
+## Uso
+
+### Clonar repositorio
+
+Se debe de clonar este repositorio
+``` 
+git clone [linkDelRepositorio] 
+```
+
+### Instalar dependencias
+
+Debe instalar dependencias y modulos que requiere el proyecto para ejecutarse correctamente
+```
+npm install
+```
+
+### Ejecutar
+
+Para ejecutar la aplicación se ejecuta el siguiente comando en la terminal
+
+#### Cualquier entorno
+
+```
+npx react-native run-android/ios
+```
+
+#### Expo Go
+
+```
+npx expo start
+```
+
+### Pruebas
+
+```
+npm test
+```
+
+## Insignias
+
+| Analizador de código           | Estado                                                                                                                                                                                                                                                                                                                                                     |
+| ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Codacy                         |  |
+
+
+## Créditos
+
+- [@Leonardo-Aguirre-Ponce](https://github.com/Leonardo-Aguirre-Ponce)
